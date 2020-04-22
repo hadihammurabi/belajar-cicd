@@ -9,6 +9,6 @@ branches:
 jobs:
   include:
     - stage: test
-      script: echo 'testing'
+      script: sh ./script/test.sh
     - stage: deploy
-      script: echo 'deploying'
+      script: sh ./script/deploy.sh
