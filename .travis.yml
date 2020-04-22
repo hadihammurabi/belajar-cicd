@@ -12,7 +12,8 @@ branches:
 jobs:
   include:
     - stage: test
-      script: sh ./script/test.sh
+      script:
+        - echo "testing"
     - stage: release
       script:
         - npm run release
