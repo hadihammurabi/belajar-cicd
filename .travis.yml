@@ -1,6 +1,11 @@
 language: node_js
 install:
   - sh ./script/install.sh
+
+branches:
+  only:
+  - master
+
 jobs:
   include:
     - stage: test
