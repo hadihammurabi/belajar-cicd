@@ -1,0 +1,24 @@
+{
+  "name": "belajar-cicd",
+  "version": "1.0.0",
+  "description": "Belajar CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "release": "semantic-release ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadihammurabi/belajar-cicd.git"
+  },
+  "keywords": [],
+  "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hadihammurabi/belajar-cicd/issues"
+  },
+  "homepage": "https://github.com/hadihammurabi/belajar-cicd#readme",
+  "devDependencies": {
+    "semantic-release": "^17.0.7"
+  }
+}
