@@ -1,6 +1,6 @@
 language: node_js
 install:
-  - sh ./script/install.sh
+  - npm install
 
 branches:
   only:
@@ -11,4 +11,5 @@ jobs:
     - stage: test
       script: sh ./script/test.sh
     - stage: release
-      script: sh ./script/release.sh
+      script:
+        - npm run release
