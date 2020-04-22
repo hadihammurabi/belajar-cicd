@@ -1,2 +1,4 @@
 #!/bin/sh
-echo 'horeee'
+echo 'installing prerequisites ...'
+npm install
+echo 'requirements installed'
