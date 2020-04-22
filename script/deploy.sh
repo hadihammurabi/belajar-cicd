@@ -1,2 +1,3 @@
 #!/bin/sh
-echo 'deploying'
+echo 'deploying ...'
+echo 'login to server'
