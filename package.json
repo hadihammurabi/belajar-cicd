@@ -11,7 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/hadihammurabi/belajar-cicd.git"
   },
-  "keywords": [],
+  "keywords": [
+    "belajar",
+    "cicd"
+  ],
   "author": "Hadi Hidayat Hammurabi <hadihammurabi@gmail.com>",
   "license": "MIT",
   "bugs": {
