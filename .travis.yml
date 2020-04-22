@@ -10,5 +10,5 @@ jobs:
   include:
     - stage: test
       script: sh ./script/test.sh
-    - stage: deploy
-      script: sh ./script/deploy.sh
+    - stage: release
+      script: sh ./script/release.sh
