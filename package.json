@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/hadihammurabi/belajar-cicd#readme",
   "devDependencies": {
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^19.0.3"
   }
 }
